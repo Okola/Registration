@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".registration_page2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/courseApplied"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#5d15dd"
+                android:text="@string/course"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.055"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.005" />
+
+            <TextView
+                android:id="@+id/Program"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/program"
+                android:textColor="@color/purple"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.049"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.075" />
+
+            <RadioGroup
+                android:id="@+id/ProgramType"
+                android:layout_width="379dp"
+                android:layout_height="33dp"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.113"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.124">
+
+                <RadioButton
+                    android:id="@+id/Certificate"
+                    android:layout_width="109dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/black"
+                    android:buttonTint="@color/black"
+                    android:onClick="onRadioButtonClicked3"
+                    android:text="@string/Certificate" />
+
+                <RadioButton
+                    android:id="@+id/Diploma"
+                    android:layout_width="106dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/black"
+                    android:buttonTint="@color/black"
+                    android:onClick="onRadioButtonClicked3"
+                    android:text="@string/Diploma" />
+
+                <RadioButton
+                    android:id="@+id/Undergaduate"
+                    android:layout_width="136dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/black"
+                    android:buttonTint="@color/black"
+                    android:onClick="onRadioButtonClicked3"
+                    android:text="@string/Undergraduate" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/Cours"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/course"
+                android:textColor="@color/purple"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.05"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.204" />
+
+            <Spinner
+                android:id="@+id/Course"
+                style="@android:style/Widget.Holo.Light.Spinner"
+                android:layout_width="257dp"
+                android:layout_height="35dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.065"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.263" />
+
+            <TextView
+                android:id="@+id/modeOfStudy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Mode_Of_study"
+                android:textColor="@color/purple"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.045"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.341" />
+
+            <RadioGroup
+                android:id="@+id/ModeOfStudy"
+                android:layout_width="401dp"
+                android:layout_height="32dp"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.095"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.402">
+
+                <RadioButton
+                    android:id="@+id/Day"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/black"
+                    android:buttonTint="@color/black"
+                    android:onClick="onRadioButtonClicked4"
+                    android:text="@string/Day" />
+
+                <RadioButton
+                    android:id="@+id/Weekend"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/black"
+                    android:buttonTint="@color/black"
+                    android:onClick="onRadioButtonClicked4"
+                    android:text="@string/Weekend" />
+
+                <RadioButton
+                    android:id="@+id/Evening"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/black"
+                    android:buttonTint="@color/black"
+                    android:onClick="onRadioButtonClicked4"
+                    android:text="@string/Evening" />
+
+                <RadioButton
+                    android:id="@+id/HolidayBased"
+                    android:layout_width="141dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/black"
+                    android:buttonTint="@color/black"
+                    android:onClick="onRadioButtonClicked4"
+                    android:text="@string/Holiday" />
+
+            </RadioGroup>
+
+            <CheckBox
+                android:id="@+id/checkBox_Microsoft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:text="@string/Microsoft"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.053"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.622" />
+
+            <CheckBox
+                android:id="@+id/checkBox_Programming"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:text="@string/Programming"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.058"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.791" />
+
+            <CheckBox
+                android:id="@+id/checkBox_Hardware"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:text="@string/HardwareComponents"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.055"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.707" />
+
+            <CheckBox
+                android:id="@+id/checkBox_Unix"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:text="@string/Unix"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.053"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.875" />
+
+            <TextView
+                android:id="@+id/levelOfComp"
+                android:layout_width="299dp"
+                android:layout_height="52dp"
+                android:text="@string/DoYou"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.071"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.512" />
+
+            <Button
+                android:id="@+id/next_btn2"
+                android:layout_width="76dp"
+                android:layout_height="25dp"
+                android:background="@drawable/roundbutton"
+                android:drawableEnd="@drawable/ic_chevron_right_black_24dp"
+                android:text="@string/next"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.973"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.977" />
+
+            <Button
+                android:id="@+id/prev_btn"
+                android:drawableStart="@drawable/ic_chevron_left_black_24dp"
+                android:layout_width="76dp"
+                android:layout_height="25dp"
+                android:background="@drawable/roundbutton"
+                android:text="@string/prev"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.029"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.977" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

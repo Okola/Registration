@@ -1,0 +1,153 @@
+<resources>
+    <string name="app_name">Registration_form</string>
+    <string name="school_logo">school_logo</string>
+    <string name="school">One World School</string>
+    <string name="announce">Congratulations on being selected to join One World School.Please fill
+        in the application form and submit it together with additional files before
+        30th April 2020.</string>
+    <string name="register_btn">Register</string>
+    <string name="student_registration_form">Registration Form</string>
+    <string name="FillTheForm">Personal Details</string>
+    <string name="studentName">Student Name</string>
+    <string name="firstName">First Name</string>
+    <string name="SecondName">Second Name</string>
+    <string name="LastName">Last Name</string>
+    <string name="BirthDate">Birth Date</string>
+    <string name="Gender">Gender</string>
+    <string-array name="year">
+        <item>2010</item>
+        <item>2009</item>
+        <item>2008</item>
+        <item>2007</item>
+        <item>2006</item>
+        <item>2005</item>
+        <item>2004</item>
+        <item>2003</item>
+        <item>2002</item>
+        <item>2001</item>
+        <item>1999</item>
+        <item>1998</item>
+        <item>1997</item>
+        <item>1996</item>
+        <item>1995</item>
+        <item>1994</item>
+        <item>1993</item>
+        <item>1992</item>
+        <item>1991</item>
+        <item>1990</item>
+    </string-array>
+    <string name="YOB">Year</string>
+    <string name="MOB">Month</string>
+    <string name="DOB">Day</string>
+    <string-array name="Month">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sept</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+    <string-array name="Day">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+    <string name="Male">Male</string>
+    <string name="Female">Female</string>
+    <string name="Religion">Religion</string>
+    <string name="Christianity">Christianity</string>
+    <string name="Islam">Islam</string>
+    <string name="Hindu">Hindu</string>
+    <string name="Others">Others(specify)</string>
+    <string name="specify"></string>
+    <string name="contacts">Contacts</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="email">Email</string>
+    <string name="address">Address</string>
+    <string name="Emergency_contact">Emergency Contact</string>
+    <string name="Mobile_number">Mobile Number</string>
+    <string name="ParentGuardian">Parent/Guardian name</string>
+    <string name="next">Next</string>
+    <string name="course">Course Application</string>
+    <string name="program">Program Type</string>
+    <string name="Certificate">Certificate</string>
+    <string name="Diploma">Diploma</string>
+    <string name="Undergraduate">Undergraduate</string>
+    <string name="Course">course</string>
+    <string-array name="Course">
+        <item>Data science and A.I</item>
+        <item>Website Programming</item>
+        <item>Mobile Application</item>
+        <item>Software Development</item>
+        <item>Hardware Management</item>
+        <item>Database Management</item>
+        <item>Network</item>
+        <item>Games Development</item>
+    </string-array>
+    <string name="Mode_Of_study">Mode of study</string>
+    <string name="Day">Day</string>
+    <string name="Weekend">Weekend</string>
+    <string name="Evening">Evening</string>
+    <string name="Short_Course">short Course</string>
+    <string name="Holiday">Holiday Based</string>
+    <string name="Educational_bg">Level Of computer knowledge</string>
+    <string name="DoYou">What is your knowledge in computer?\nplease select the areas you are
+                familiar with or have knowledge in.</string>
+    <string name="Microsoft">Microsoft Packages</string>
+    <string name="Programming">Any Programming language</string>
+    <string name="HardwareComponents">Hardware Components</string>
+    <string name="Unix">Unix based servers</string>
+    <string name="Physician">Physician and Medical Information</string>
+    <string name="Preffered">Preffered Hospital</string>
+    <string name="Insurance">Insurance/Health coverage providers(company) If applicable</string>
+    <string name="pleaseList">Please list any of the following:\nCurrent medications, medication allergies,
+                  food allergies, Chronic health concerns</string>
+    <string name="Additional_info">Please inform the Offfice of any other vital info you think \n
+                  they may need to know</string>
+    <string name="Additional_docs">Additional documents for registration</string>
+    <string name="AdditionalInfo">Attach the following documents:\n*birth Certificate\n
+    *Xray for Chest\n*Education Cetificates\n*Insurance Document\n*four Passport Pictures</string>
+    <string name="where_did">where did you first hear about us?</string>
+    <string name="prev">back</string>
+    <string name="physicianName">Physician Name</string>
+    <string name="primaryPhoneNumber">Primary phone number</string>
+    <string name="secondaryPhoneNumber">Secondary phone number</string>
+    <string name="submit">Submit</string>
+
+
+
+</resources>
